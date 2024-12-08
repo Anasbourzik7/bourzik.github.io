@@ -1,0 +1,71 @@
+<!-- newgame.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DiddyParty</title>
+  
+  <script src="sketch.html"></script> <!-- Votre fichier JavaScript de jeu -->
+  <script src="index.js"></script> <!-- Votre fichier JavaScript de jeu -->
+
+
+ <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #000000;
+      color: white;
+      padding: 50px;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 20px;
+      background-color: #e5d900;
+      color: rgb(0, 0, 0);
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #4f4b00;
+      color: rgb(255, 255, 255);
+
+    }
+  </style>
+</head>
+
+
+<body>
+<img src="assets/leader/diddy.png" alt="" width="40">
+ <br><br> 
+  <h1>Comment jouer</h1>
+
+  <h4>
+    Bienvenue à la Diddy Party ! <br><br> L'objectif est simple : aidez Diddy à manger Justin Bieber tout en évitant les obstacles et en utilisant la police pour l'aider. <br> <br><br>
+    
+    Instructions :
+    <br><br><br>
+    Déplacer Diddy : Utilisez votre souris pour contrôler les mouvements de Diddy. <br><br>
+    Manger Justin Bieber : Diddy doit manger les personnages Justin Bieber pour gagner des points. <br> <br>
+    Éviter les obstacles : Faites attention aux obstacles (comme la police et le FBI) qui compliqueront votre tâche. <br><br>
+    Utiliser la police : Diddy peut payer la police pour travailler pour lui et l'aider à éviter les ennuis ! <br><br><br>
+    Commandes : <br><br><br>
+    
+    L : Passer en mode Leader – Dans ce mode, Diddy prend les commandes et mène la voie ! <br><br>
+    S : Passer en mode Serpent – Dans ce mode, les véhicules suivent les autres comme un serpent.<br><br>
+    O : Ajouter des obstacles – Ajoutez des obstacles pour rendre le jeu plus difficile.<br><br>
+    M : Retourner au menu – Revenez au menu principal si vous avez besoin d'une pause.<br><br>
+    Bonne chance et amusez-vous bien ! Profitez de la fête ! 🎉</h4><br><br>
+  
+  <button onclick="startGame()">Start the party</button>
+
+  <script>
+    function startGame() {
+      // Rediriger vers la page du jeu (ex : sketch.html)
+      window.location.href = 'diddyparty.html' ;
+    }
+  </script>
+
+</body>
+</html>
